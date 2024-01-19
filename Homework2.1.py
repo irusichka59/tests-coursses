@@ -17,6 +17,9 @@ elif input_c == "*":
 elif input_c == "/" and input_b > 0:
     result = input_a / input_b
 elif input_c == "/" and input_b == 0:
-    print("Error: Cannot divide by 0.")
+    result = None
 
-print("Result:", result)
+if result is None:
+    print("Error: Cannot divide by 0.")
+else:
+    print("Result:", result)
