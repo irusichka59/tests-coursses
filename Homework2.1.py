@@ -14,7 +14,7 @@ elif input_c == "-":
     result = input_a - input_b
 elif input_c == "*":
     result = input_a * input_b
-elif input_c == "/" and input_b > 0:
+elif input_c == "/" and input_b != 0:
     result = input_a / input_b
 elif input_c == "/" and input_b == 0:
     result = None
