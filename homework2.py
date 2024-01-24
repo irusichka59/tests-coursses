@@ -2,7 +2,8 @@
 def temperature(celsius):
     fahrenheit = celsius * 9 / 5 + 32
     kelvin = celsius + 273.15
-    print(fahrenheit, kelvin)
+    print("Fahrenheit", fahrenheit)
+    print("Kelvin:", kelvin)
 
 
 input_celsius = float(input("input celsius:"))
