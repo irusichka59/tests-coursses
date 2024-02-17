@@ -11,4 +11,3 @@ def generate_even_squares():
 # Виведення квадратів парних чисел у консоль
 for square in generate_even_squares():
     print(square)
-''
