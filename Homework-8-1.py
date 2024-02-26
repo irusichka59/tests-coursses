@@ -59,5 +59,5 @@ data_string = "Jane Doe,0987654321,456,11/24,2000.0"
 user_account_from_string = UserAccount.create_from_string(data_string)
 print("User account created from string:", user_account_from_string.__dict__)
 
-2
+
 
