@@ -1,0 +1,6 @@
+name,last_name,age,salary
+Leo,Moracchioli,50,5000
+Lesya, Fortner, 34,3000
+Lemmy,Kilmister,83,0
+Olga,Furman,23,9000
+ 
